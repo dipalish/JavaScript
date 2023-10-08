@@ -22,7 +22,24 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 
 let someNo = 33
 let stringNumber = String(someNo)
-console.log(stringNumber)
-console.log(typeof stringNumber)
+// console.log(stringNumber)
+// console.log(typeof stringNumber);
+
+
+// ************* Operations ************************
+
+let val = 3 
+let negVal = -val
+// console.log(negVal);
+
+// console.log(2**3); // power 2 raise to 3
+
+console.log("1" + 2)
+console.log(1 + "2")
+console.log("1" + 2 + 2); // 122
+console.log(1 + 2 + "2"); // 32
+
+
+
 
   

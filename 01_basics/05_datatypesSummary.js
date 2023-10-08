@@ -53,3 +53,8 @@ Return type of variables in JavaScript
        Object  =>  object 
 
        */
+
+// *****************************************************************************************************************
+
+// Stack (Primitive ) || Heap (Non Primitive)
+

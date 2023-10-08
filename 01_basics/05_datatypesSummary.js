@@ -58,3 +58,25 @@ Return type of variables in JavaScript
 
 // Stack (Primitive ) || Heap (Non Primitive)
 
+let myYouTubeName = "abcSh@gmail.com"
+let anotherName = myYouTubeName
+anotherName = "chaiaurCode"
+
+console.log(myYouTubeName)
+console.log(anotherName)
+
+// here the copy of  myYouTubeName is given not actual value
+
+let oneUser = {
+    name01 : "dipali",
+    email : "abcSh@gmail.com"
+}
+
+let twoUser = oneUser
+
+// here  twoUser pointing to same value
+
+twoUser.email = "qwer@gmail.com"
+
+console.log(oneUser.email)
+console.log(twoUser.email)

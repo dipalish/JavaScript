@@ -1,3 +1,4 @@
+// types on the basis of how they are stored in memory and how we're accessing them
 //  Primitive
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt

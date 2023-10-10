@@ -1,5 +1,5 @@
 // types on the basis of how they are stored in memory and how we're accessing them
-//  Primitive
+// 1. Primitive
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
@@ -22,7 +22,7 @@ console.log(id === anotherId);
 // objects and browser events   - mastery
 //Javascript is a dynamic typing language
 
-// Reference (Non primitive)
+// 2. Reference (Non primitive)
 
 // Array, Objects, Functions
 const heros = ["shaktiman", "naagraj", "doga"];

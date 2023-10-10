@@ -23,13 +23,8 @@ const gameName = new String('dipali-sh-abc')
 const newString = gameName.substring(0,4)
 //console.log(newString);
 
-const anotherString = gameName.slice(-8,4)
+const anotherString = gameName.slice(3,-5)
 //console.log(anotherString);
-
-//Negative index counts back from the end of the array — if start < 0, start + array.length is used.
-
-//start < -array.length or start is omitted, 0 is used.
-// -10 < -6 
 
 const newStringOne = "   dipali    "
 console.log(newStringOne);

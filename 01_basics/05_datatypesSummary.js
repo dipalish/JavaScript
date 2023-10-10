@@ -31,7 +31,7 @@ let myObj = {
     age: 22,
 }
 
-const myFunction = function(){
+const myFunction = function(){ // can store function in variables 
     console.log("Hello world");
 }
 

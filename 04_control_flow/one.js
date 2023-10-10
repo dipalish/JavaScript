@@ -8,6 +8,7 @@ else{
     console.log("greater then 50");
 }
 
+
 console.log("Executed");
 
 const score = 200

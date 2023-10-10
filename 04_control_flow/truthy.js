@@ -36,7 +36,6 @@ console.log(val1);
 
 
 // Ternary Operator 
-
 // condition ? true : false
 
 const iceTeaPrice = 100

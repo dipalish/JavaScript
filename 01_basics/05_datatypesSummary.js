@@ -50,7 +50,7 @@ Return type of variables in JavaScript
 
 2) Non-primitive Datatypes
        Arrays  =>  object
-       Function  =>  function
+       Function  =>   object function
        Object  =>  object 
 
        */

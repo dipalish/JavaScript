@@ -1,0 +1,8 @@
+HTMLCollection :- it seems like an array but isn't can't use foreach and map
+NodeList :- it seems like an array but isn't can't use map 
+// need to convert in array first 
+
+querySelector & querySelectorAll
+
+querySelector - like css use .class and #id but onlye selects the first only
+querySelectorAll - selects all 

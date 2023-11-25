@@ -1,5 +1,5 @@
 const accountId = 144556
-let accountEmail = "Sharmdipali@gmail.com" // solve scope prblm of var
+let accountEmail = "sharmdipali@gmail.com" // solve scope prblm of var
 var accPass = "123456"
 accCity = "Jaipur"
 let accState;// undefined

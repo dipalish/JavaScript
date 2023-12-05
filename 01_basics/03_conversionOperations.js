@@ -1,12 +1,14 @@
 let score = true
 
-//console.log(typeof score)
-//console.log(typeof (score))
+// console.log(typeof score)
+// console.log(typeof (score))
 
 let valueInNumber = Number(score) // Capital in number
-//console.log(typeof valueInNumber);
-//console.log(valueInNumber);
+// console.log(typeof valueInNumber);
+// console.log(valueInNumber);
 
+//  null - 0 
+//  undefined - NaN
 // "33" => 33
 // "33abc" => NaN | type - no.
 // true => 1 || false => 0
@@ -30,16 +32,11 @@ let stringNumber = String(someNo)
 
 let val = 3 
 let negVal = -val
-// console.log(negVal);
+console.log(negVal);
 
-// console.log(2**3); // power 2 raise to 3
+console.log(2**3); // power 2 raise to 3
 
 console.log("1" + 2)
 console.log(1 + "2")
 console.log("1" + 2 + 2); // 122
 console.log(1 + 2 + "2"); // 32
-
-
-
-
-  

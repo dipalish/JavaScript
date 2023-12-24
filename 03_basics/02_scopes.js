@@ -45,7 +45,7 @@ function addone(num) {
     return num + 1
 }
 
-addTwo(5)
+addTwo(5) // can't acees before decl. in this case
 const addTwo = function (num) {
     return num + 2
 }

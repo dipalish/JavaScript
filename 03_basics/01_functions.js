@@ -25,8 +25,11 @@ const result = addTwoNo(3,5)
 
 // console.log("Result : " ,result);
 
-function loginUserMessage(username = "sam"){
-    if(!username){
+function loginUserMessage(username = "sam"){ // atleast it's value will always b sam even is we don't give it any value.
+
+    if(!username){ // if username is undefined coz no agru means undefined 
+        // this if will run only if the statement is true
+
         console.log("Please enter a udsername");
         return
     }
@@ -35,18 +38,18 @@ function loginUserMessage(username = "sam"){
 
 // console.log(loginUserMessage("dipali"));
 
-function calculateCartPrice(...num1){
+function calculateCartPrice( val1 , val2 , ...num1){ // rest operator
     return num1
 }
 
-// console.log(calculateCartPrice(200, 400 , 500 , 2000));
+// console.log(calculateCartPrice(200, 400 , 500 , 2000)); || 500  , 2000
 
 const user = {
     username : "dipali",
     prices : 199
 }
 
-function handleObject(anyobject){
+function handleObject(anyobject){ // need to chechk type
     console.log(`Username is ${anyobject.username} and price is ${anyobject.prices}`);
 }
 
@@ -63,3 +66,4 @@ function returnSecondValue(getArray) {
 }
 
 console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([200, 4000 , 700 , 811]));

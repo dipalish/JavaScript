@@ -48,7 +48,7 @@ users[1].email
 
 // console.log(tinderUser);
 
-// console.log(Object.keys(tinderUser));
+// console.log(Object.keys(tinderUser)); || datatype is array
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
 
@@ -63,6 +63,7 @@ const course = {
 }
 
 // course.courseInstructor
+// if we have to use this multiple times so we use the below given syntax just a synatit cal sugar
 
 const {courseInstructor : instructor} = course
 

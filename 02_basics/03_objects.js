@@ -1,4 +1,4 @@
-// singleton - constructor
+// singleton - when it's made by  constructor
 // Object.create
 
 // object literals - not singleton
@@ -6,7 +6,7 @@
 const mySum = Symbol("Key1")
 
 const JsUser = {
-    name : "Dipali",
+    name : "Dipali", // name is string here
     "full name" : "Hitesh Choudhary",
     [mySum] : "mykey1", // asked in interveiw
     age : 18,
@@ -34,6 +34,6 @@ JsUser.greetingTwo = function(){
     console.log(`Hello Js User , ${this.name}`);
 }
 
-console.log(JsUser.greeting);
-console.log(JsUser.greeting());
+console.log(JsUser.greeting); // only ref is given
+console.log(JsUser.greeting()); // now executed
 console.log(JsUser.greetingTwo());

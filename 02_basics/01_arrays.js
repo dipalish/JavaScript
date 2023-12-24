@@ -25,7 +25,7 @@ myArr.shift()
 // console.log(myArr)
 
 // console.log(myArr.includes(9));
-// console.log(myArr.includes(3));
+console.log(myArr.indexof(3));
 
 const newArr = myArr.join()
 
@@ -45,4 +45,5 @@ const myn2 = myArr.splice(1,3)
 console.log("C" , myArr);
 console.log(myn2);
 
-// in splice the whole section from 1 to 3 absent in myArr whereas in slice it's there . Also it includes the last value whereas in slice it is excluded
+// in splice the whole section from 1 to 3 absent in myArr whereas in slice it's there . Also it includes the last value whereas in slice it is excluded 
+// in splice the whole array is manipulated unlike slice

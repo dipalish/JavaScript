@@ -43,7 +43,7 @@ const chai3 = () => {
 
 // const addTwo = (num1 , num2) => {
 //     return num1 + num2
-}
+//}
 
 // If {} there should be return
 

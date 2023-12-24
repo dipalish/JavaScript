@@ -70,10 +70,12 @@ const {courseInstructor : instructor} = course
 // console.log(courseInstructor);
 // console.log(instructor);
 
+
+// ********** json ****************
 // {
-//     name : "dipali",
-//     coursename : "js",
-//     price : "free"
+//     "name" : "dipali",
+//     "coursename" : "js",
+//     "price" : "free"
 // }
 
 // [

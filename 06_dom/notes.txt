@@ -1,8 +1,25 @@
+// getElementByClassName
 HTMLCollection :- it seems like an array but isn't can't use foreach and map
+
+// querSelectorAll
 NodeList :- it seems like an array but isn't can't use map 
 // need to convert in array first 
 
+****************************************************
+
 querySelector & querySelectorAll
 
-querySelector - like css use .class and #id but onlye selects the first only
+querySelector - like css use .class and #id but it only selects the first only
 querySelectorAll - selects all 
+
+***********************************************
+ 
+innerText  - gives only the visible value
+innerContent - gives the entire value even if there is any condition
+innerHTML - gives the html along with text
+
+
+*************************
+project notes 
+e - event 
+e.target - event khn se aara

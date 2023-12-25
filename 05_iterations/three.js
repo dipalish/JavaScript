@@ -14,7 +14,7 @@ for (const greet of greetings) {
     // console.log(`Each char is ${greet}`);
 }
 
-// Maps - store unique values
+// Maps - store unique values , key - value pair
 
 const map = new Map()
 map.set('IN' , "India")
@@ -24,7 +24,7 @@ map.set('IN' , "India")
 
 // console.log(map);
 
-for (const [key,value] of map) { // destructoring of map
+for (const [key,value] of map) { // destructoring of array 
     // console.log(key , ':-' , value);
 }
 
@@ -33,9 +33,9 @@ const myObject = {
     game2 : 'Spiderman'
 }
 
-// for (const [key, value] of myObject) {
-//     console.log(key, ':-', value);
+for (const [key, value] of myObject) {
+    console.log(key, ':-', value);
     
-// } 
+} 
 
-// can't use forof in object
+// can't use forof in object coz it's not iterablem

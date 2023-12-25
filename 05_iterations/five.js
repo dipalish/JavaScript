@@ -12,7 +12,7 @@ function printMe(item){
    console.log(item);
 }
 
-// coding.forEach(printMe)// only pass the refrence not exceute it
+// coding.forEach(printMe)// only pass the refrence no need to execute it
 
 coding.forEach((item , index , arr)=>{
     // console.log(item, index , arr);

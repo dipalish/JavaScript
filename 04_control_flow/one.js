@@ -1,4 +1,5 @@
 // if
+// < , > , <= , >= , == , != , ===(type chechking) , !==
 
 const temperature = 41
 
@@ -23,6 +24,7 @@ if (score > 100) {
 
 const balance = 500
 
+// implicit scope
 if (balance > 500) console.log("test") , console.log("test2"); // not a good practice one line is okay but not more
 
 if (balance < 500) {
@@ -42,7 +44,7 @@ const debitCard = true
 const loggedInFromGoogle = false
 const loggedInFromEmail = true
 
-if (userLoggedIn && debitCard && 2==3) {
+if (userLoggedIn && debitCard && 2==2) {
     console.log("Allow to buy course");
 }
 

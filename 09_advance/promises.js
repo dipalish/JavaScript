@@ -1,3 +1,4 @@
+// creation
 const promiseOne = new Promise(function(resolve , reject){
 
     setTimeout(function(){
@@ -6,6 +7,8 @@ const promiseOne = new Promise(function(resolve , reject){
     },1000)
 
 })
+
+// consumption
 
 promiseOne.then(function(){
     console.log("promise consumed");
@@ -40,7 +43,7 @@ const promiseFour = new Promise(function(resolve,reject){
             resolve({username: " dipali ", password : "4323"})
         }
         else{
-            reject('ERROR : Smoething wnet wrong')
+            reject('ERROR : Smoething went wrong')
         }
     },1000)
 })

@@ -1,5 +1,5 @@
 class User{
-    constructor(username , email , password){
+    constructor(username , email , password){// as soon as new is used
         this.username = username;
         this.email  = email;
         this.password = password;

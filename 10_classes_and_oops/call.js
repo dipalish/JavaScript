@@ -6,8 +6,7 @@ function SetUserName(username){
 }
 
 function createUser(username , email, password){
-    SetUserName.call(this , username) // call is used to hold the reference and this means the this of createUser will be used
-
+    // SetUserName.call(this , username) // call is used to hold the reference and this means the this of createUser will be used
     this.email = email
     this.password = password
 }
